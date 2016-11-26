@@ -1,5 +1,5 @@
 package event;
 
-public class AppearanceEvent implements Event{
+public class AppearanceEvent extends Event{
 
 }

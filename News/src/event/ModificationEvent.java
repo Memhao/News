@@ -1,5 +1,4 @@
 package event;
 
-public class ModificationEvent implements Event{
-
+public class ModificationEvent extends Event{
 }

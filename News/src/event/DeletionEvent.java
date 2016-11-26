@@ -1,5 +1,5 @@
 package event;
 
-public class DeletionEvent implements Event{
-
+public class DeletionEvent extends Event{
+	
 }
