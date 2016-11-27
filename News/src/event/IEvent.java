@@ -6,5 +6,5 @@ package event;
  * with its handler
  */
 public interface IEvent {
-	  public String  getType();
+	  public Type  getType();
 }

@@ -1,9 +1,14 @@
 package event;
 
 public abstract class Event implements IEvent{
+	private Type type;
+	public Event(Type type)
+	{
+		this.type = type;
+	}
 	@Override
-	public String getType() {
+	public Type getType() {
 		// TODO Auto-generated method stub
-		return getClass().toString();
+		return type;
 	}
 }
